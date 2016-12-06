@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Qmm-xh-2fT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -156,10 +156,61 @@
             </objects>
             <point key="canvasLocation" x="-73.599999999999994" y="30.584707646176913"/>
         </scene>
+        <!--Results Controller-->
+        <scene sceneID="AWj-fK-3Py">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qmm-xh-2fT" customClass="ResultsController" customModule="BoutTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="55i-7l-pNs"/>
+                        <viewControllerLayoutGuide type="bottom" id="9OB-gI-zcB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q7D-lh-OsT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHb-70-Ur5">
+                                <rect key="frame" x="224" y="193" width="152" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnh-Qz-MZl">
+                                <rect key="frame" x="258" y="260" width="85" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbx-gD-GFg">
+                                <rect key="frame" x="250" y="342" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Wfu-o6-LbM"/>
+                                    <constraint firstAttribute="width" constant="100" id="Xzn-BB-w1K"/>
+                                </constraints>
+                                <state key="normal" image="play_again"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.16078431369999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nbx-gD-GFg" firstAttribute="centerX" secondItem="vnh-Qz-MZl" secondAttribute="centerX" id="3Vy-Sg-dnC"/>
+                            <constraint firstItem="xHb-70-Ur5" firstAttribute="centerX" secondItem="vnh-Qz-MZl" secondAttribute="centerX" id="Den-Fd-kh6"/>
+                            <constraint firstItem="xHb-70-Ur5" firstAttribute="centerX" secondItem="q7D-lh-OsT" secondAttribute="centerX" id="Gop-tC-meI"/>
+                            <constraint firstItem="vnh-Qz-MZl" firstAttribute="top" secondItem="xHb-70-Ur5" secondAttribute="bottom" constant="31" id="VuI-hI-Oga"/>
+                            <constraint firstItem="nbx-gD-GFg" firstAttribute="top" secondItem="vnh-Qz-MZl" secondAttribute="bottom" constant="40" id="bPa-yC-mrK"/>
+                            <constraint firstItem="xHb-70-Ur5" firstAttribute="top" secondItem="55i-7l-pNs" secondAttribute="bottom" constant="173" id="ifO-9W-AlL"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ujl-fo-tYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912" y="30.584707646176913"/>
+        </scene>
     </scenes>
     <resources>
         <image name="down_full" width="158" height="457"/>
         <image name="down_half" width="158" height="229"/>
+        <image name="play_again" width="450" height="142"/>
         <image name="up_full" width="158" height="457"/>
         <image name="up_half" width="158" height="229"/>
     </resources>
