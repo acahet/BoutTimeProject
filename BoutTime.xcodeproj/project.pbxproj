@@ -12,6 +12,8 @@
 		5C8776C81DF6E80E00D36459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8776C61DF6E80E00D36459 /* Main.storyboard */; };
 		5C8776CA1DF6E80E00D36459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8776C91DF6E80E00D36459 /* Assets.xcassets */; };
 		5C8776CD1DF6E80E00D36459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8776CB1DF6E80E00D36459 /* LaunchScreen.storyboard */; };
+		5C8776D61DF6E9A200D36459 /* CorrectDing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C8776D51DF6E9A200D36459 /* CorrectDing.wav */; };
+		5C8776D81DF6E9A900D36459 /* IncorrectBuzz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C8776D71DF6E9A900D36459 /* IncorrectBuzz.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C8776C91DF6E80E00D36459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C8776CC1DF6E80E00D36459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C8776CE1DF6E80E00D36459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8776D51DF6E9A200D36459 /* CorrectDing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CorrectDing.wav; sourceTree = "<group>"; };
+		5C8776D71DF6E9A900D36459 /* IncorrectBuzz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IncorrectBuzz.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		5C8776B61DF6E80E00D36459 = {
 			isa = PBXGroup;
 			children = (
+				5C8776D41DF6E98B00D36459 /* Sounds */,
 				5C8776C11DF6E80E00D36459 /* BoutTime */,
 				5C8776C01DF6E80E00D36459 /* Products */,
 			);
@@ -62,6 +67,15 @@
 				5C8776CE1DF6E80E00D36459 /* Info.plist */,
 			);
 			path = BoutTime;
+			sourceTree = "<group>";
+		};
+		5C8776D41DF6E98B00D36459 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5C8776D71DF6E9A900D36459 /* IncorrectBuzz.wav */,
+				5C8776D51DF6E9A200D36459 /* CorrectDing.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +110,7 @@
 				TargetAttributes = {
 					5C8776BE1DF6E80E00D36459 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K8Y2P8R2J7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C8776CD1DF6E80E00D36459 /* LaunchScreen.storyboard in Resources */,
+				5C8776D81DF6E9A900D36459 /* IncorrectBuzz.wav in Resources */,
 				5C8776CA1DF6E80E00D36459 /* Assets.xcassets in Resources */,
 				5C8776C81DF6E80E00D36459 /* Main.storyboard in Resources */,
+				5C8776D61DF6E9A200D36459 /* CorrectDing.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +275,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8Y2P8R2J7;
 				INFOPLIST_FILE = BoutTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andersoncahet.BoutTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +289,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8Y2P8R2J7;
 				INFOPLIST_FILE = BoutTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andersoncahet.BoutTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
