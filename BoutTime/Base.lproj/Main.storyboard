@@ -151,6 +151,19 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="countDownLabel" destination="tUc-kU-ICa" id="d4O-eh-Kx2"/>
+                        <outlet property="firstEventLabel" destination="qe6-Bt-nwZ" id="6e2-YD-S91"/>
+                        <outlet property="fourthEventLabel" destination="mAH-Dm-Czb" id="rEk-Rj-Jqx"/>
+                        <outlet property="fullDownButton" destination="A9L-2W-096" id="rfS-at-lWx"/>
+                        <outlet property="fullUpButton" destination="dWq-Ry-WeH" id="sZ4-lh-ASs"/>
+                        <outlet property="halfDownButton" destination="gyl-aU-BwV" id="Hzc-8n-yvz"/>
+                        <outlet property="halfUpButton" destination="t1S-2p-gev" id="xvP-cG-h9Q"/>
+                        <outlet property="secondDownButton" destination="q2F-4h-dmk" id="lRI-Q1-BnJ"/>
+                        <outlet property="secondEventLabel" destination="Rqh-gf-IOU" id="BCw-y4-ufb"/>
+                        <outlet property="secondHalfUpButton" destination="5HW-ca-qAi" id="rBv-3r-pJZ"/>
+                        <outlet property="thirdEventLabel" destination="THZ-fx-OvC" id="8sg-KG-i03"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

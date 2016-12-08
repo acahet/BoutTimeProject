@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>France</key>
+	<dict>
+		<key>Event</key>
+		<string>France Invades Italy</string>
+		<key>YearOfEvent</key>
+		<string>1424</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/WH1400-1900/Europe/Europe/FranceInvadesItaly.html</string>
+	</dict>
+	<key>IncaDynasty</key>
+	<dict>
+		<key>Event</key>
+		<string>Inca Dynasty Founded</string>
+		<key>YearOfEvent</key>
+		<string>1438</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/WH1400-1900/SAmerica/IncaDynastyFounded.html</string>
+	</dict>
+	<key>India</key>
+	<dict>
+		<key>Event</key>
+		<string>Vasco De Gama Lands in India</string>
+		<key>YearOfEvent</key>
+		<string>1498</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/WH1400-1900/Europe/Europe/DeGamatoIndia.html</string>
+	</dict>
+	<key>RioDeJaneiro</key>
+	<dict>
+		<key>Event</key>
+		<string>Rio de Janeiro Founded</string>
+		<key>YearOfEvent</key>
+		<string>1567</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/WH1400-1900/SAmerica/RioDeJaneiro.html</string>
+	</dict>
+	<key>Constantinople</key>
+	<dict>
+		<key>Event</key>
+		<string>Treaty of Constantinople</string>
+		<key>YearOfEvent</key>
+		<string>1724</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/WH1400-1900/Europe/Europe/TreatyofConstantinople2.html</string>
+	</dict>
+	<key>Cuba</key>
+	<dict>
+		<key>Event</key>
+		<string>Cuba Becomes United States Protectorate</string>
+		<key>YearOfEvent</key>
+		<string>1901</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/Samerica/CubaProtectorate.html</string>
+	</dict>
+	<key>Norway</key>
+	<dict>
+		<key>Event</key>
+		<string>Norway&apos;s first ever shipment of bananas</string>
+		<key>YearOfEvent</key>
+		<string>1905</string>
+		<key>LinkToUrl</key>
+		<string>http://rarehistoricalphotos.com/bananas-norway-1905/</string>
+	</dict>
+	<key>WilburWright</key>
+	<dict>
+		<key>Event</key>
+		<string>Wilbur Wright flies around the Statue of Liberty</string>
+		<key>YearOfEvent</key>
+		<string>1909</string>
+		<key>LinkToUrl</key>
+		<string>http://www.airspacemag.com/history-of-flight/wilbur-wright-and-the-statue-of-liberty-180947754/</string>
+	</dict>
+	<key>WorldSeriesNY</key>
+	<dict>
+		<key>Event</key>
+		<string>The first World Series Game in New York</string>
+		<key>YearOfEvent</key>
+		<string>1912</string>
+		<key>LinkToUrl</key>
+		<string>https://en.wikipedia.org/wiki/1912_World_Series</string>
+	</dict>
+	<key>TreatyOfVersailles</key>
+	<dict>
+		<key>Event</key>
+		<string>Spectators watch the signing of the Treaty of Versailles</string>
+		<key>YearOfEvent</key>
+		<string>1919</string>
+		<key>LinkToUrl</key>
+		<string>http://rarehistoricalphotos.com/spectators-versailles-treaty-signed-1919/</string>
+	</dict>
+	<key>HollywoodSign</key>
+	<dict>
+		<key>Event</key>
+		<string>The Hollywood sign right after it was built</string>
+		<key>YearOfEvent</key>
+		<string>1923</string>
+		<key>LinkToUrl</key>
+		<string>https://en.wikipedia.org/wiki/Hollywood_Sign</string>
+	</dict>
+	<key>MGMLion</key>
+	<dict>
+		<key>Event</key>
+		<string>Filming the MGM Lion</string>
+		<key>YearOfEvent</key>
+		<string>1929</string>
+		<key>LinkToUrl</key>
+		<string>https://en.wikipedia.org/wiki/Leo_the_Lion_(MGM)</string>
+	</dict>
+	<key>HooverDam</key>
+	<dict>
+		<key>Event</key>
+		<string>The other side of the Hoover Dam before it was flooded</string>
+		<key>YearOfEvent</key>
+		<string>1936</string>
+		<key>LinkToUrl</key>
+		<string>http://waterandpower.org/Construction_of_Hoover_Dam.html</string>
+	</dict>
+	<key>DDay</key>
+	<dict>
+		<key>Event</key>
+		<string>D-Day Invasion of Normandy</string>
+		<key>YearOfEvent</key>
+		<string>1944</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/ww2/events/DDay.html</string>
+	</dict>
+	<key>AftermathJapan</key>
+	<dict>
+		<key>Event</key>
+		<string>Aftermath of the Victory over Japan Day celebrations in New York City</string>
+		<key>YearOfEvent</key>
+		<string>1945</string>
+		<key>LinkToUrl</key>
+		<string>http://www.history.com/topics/world-war-ii/v-j-day</string>
+	</dict>
+	<key>PeronArgentina</key>
+	<dict>
+		<key>Event</key>
+		<string>Peron Becomes Dictator of Argentina</string>
+		<key>YearOfEvent</key>
+		<string>1946</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/Samerica/DictatorPeronofArgentina.html</string>
+	</dict>
+	<key>JackieKennedy</key>
+	<dict>
+		<key>Event</key>
+		<string>Jackie Kennedy watching her husband debate Richard Nixon</string>
+		<key>YearOfEvent</key>
+		<string>1960</string>
+		<key>LinkToUrl</key>
+		<string>https://www.pinterest.com/pin/506021708116309344/</string>
+	</dict>
+	<key>LutherKingSpeech</key>
+	<dict>
+		<key>Event</key>
+		<string>Martin Luther King Jr.’s “I have a dream” speech</string>
+		<key>YearOfEvent</key>
+		<string>1963</string>
+		<key>LinkToUrl</key>
+		<string>http://www.americanrhetoric.com/speeches/mlkihaveadream.htm</string>
+	</dict>
+	<key>CheGuevara</key>
+	<dict>
+		<key>Event</key>
+		<string>Che Guevara Killed in Bolivia</string>
+		<key>YearOfEvent</key>
+		<string>1967</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/Samerica/CheGuevera.html</string>
+	</dict>
+	<key>WoodstockFestival</key>
+	<dict>
+		<key>Event</key>
+		<string>Crowds at the original Woodstock Music Festival</string>
+		<key>YearOfEvent</key>
+		<string>1969</string>
+		<key>LinkToUrl</key>
+		<string>http://history1900s.about.com/od/1960s/p/woodstock.htm</string>
+	</dict>
+	<key>BahamasIndepence</key>
+	<dict>
+		<key>Event</key>
+		<string>Bahamas Given Independence</string>
+		<key>YearOfEvent</key>
+		<string>1973</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/Samerica/BahamasIndep.html</string>
+	</dict>
+	<key>PanamaCanal</key>
+	<dict>
+		<key>Event</key>
+		<string>Panama Canal Treaty Signed</string>
+		<key>YearOfEvent</key>
+		<string>1978</string>
+		<key>LinkToUrl</key>
+		<string>http://www.historycentral.com/Samerica/PanCanalTreatySigned.html</string>
+	</dict>
+	<key>TheTankMan</key>
+	<dict>
+		<key>Event</key>
+		<string>The Tank Man in Tiananmen Square, China</string>
+		<key>YearOfEvent</key>
+		<string>1989</string>
+		<key>LinkToUrl</key>
+		<string>https://en.wikipedia.org/wiki/Tank_Man</string>
+	</dict>
+	<key>BurningOilFields</key>
+	<dict>
+		<key>Event</key>
+		<string>Iranian soldiers looks at the burning Iraqi oil fields</string>
+		<key>YearOfEvent</key>
+		<string>1990</string>
+		<key>LinkToUrl</key>
+		<string>https://www.pinterest.com/pin/318629742365063119/</string>
+	</dict>
+</dict>
+</plist>
